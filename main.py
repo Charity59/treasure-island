@@ -35,11 +35,11 @@ if position_case == "left":
     if door_case == "red":
       print("Oh! Burned by fire. Game Over.")
     elif door_case == "blue":
-      print("Eaten by beasts. Game Over.")
+      print("You enter a room of beasts. Game Over.")
     elif door_case == "yellow":
-      print("You Win.")
+      print("You found the treasure! You Win.")
     else:
-      print("Game Over.")
+      print("You chose a door that doesn't exist. Game Over.")
   else:
     print("Attack by trout. Game Over")
 else:
